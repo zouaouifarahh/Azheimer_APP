@@ -124,7 +124,7 @@
                       </div>
                       <div class="ms-2 me-auto">
                         <h6 class="mb-0">Olivia Clark</h6>
-                        <small class="text-body d-block">You can now view the â€œReportâ€.</small>
+                        <small class="text-body d-block">You can now view the “Report”.</small>
                         <small class="text-muted position-absolute end-0 top-0 mt-2 me-3">4 hr ago</small>
                       </div>
                     </li>
@@ -1116,436 +1116,94 @@
       <div class="container-fluid">
 
         <div class="app-page-head d-flex align-items-center justify-content-between">
-          <nav aria-label="breadcrumb">
-            <ol class="breadcrumb mb-0">
-              <li class="breadcrumb-item">
-                <a routerLink="/admin">
-                  <i class="fi fi-rr-home"></i> Home
-                </a>
-              </li>
-              <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
-            </ol>
-          </nav>
+          <div class="clearfix">
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb mb-0">
+                <li class="breadcrumb-item">
+                  <a routerLink="/admin">
+                    <i class="fi fi-rr-home"></i> Home
+                  </a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">Team Management</li>
+              </ol>
+            </nav>
+          </div>
         </div>
 
         <div class="row">
 
-          <div class="col-xxl-6 col-lg-8">
+          <div class="col-xxl-6">
             <div class="row">
-
-              <div class="col-xxl-6 col-md-6">
-                <div class="card">
-                  <div class="card-header d-flex align-items-center justify-content-between border-0 pb-0">
-                    <div class="clearfix">
-                      <h6>Total Contacts</h6>
-                    </div>
-                    <div class="btn-group">
-                      <button class="btn btn-action-primary btn-sm btn-icon waves-effect dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <i class="fi fi-bs-menu-dots"></i>
-                      </button>
-                      <ul class="dropdown-menu dropdown-menu-end">
-                        <li>
-                          <a class="dropdown-item" href="javascript:void(0);">Edit</a>
-                        </li>
-                        <li>
-                          <a class="dropdown-item" href="javascript:void(0);">Delete</a>
-                        </li>
-                      </ul>
+              <div class="col-lg-6">
+                <div class="row">
+                  <div class="col-12 col-sm-6 col-lg-12">
+                    <div class="card">
+                      <div class="card-header pb-0 border-0 d-flex align-items-center justify-content-between">
+                        <h6 class="card-title mb-0">Total Team Members</h6>
+                        <span class="badge bg-success-subtle text-success">+12.1%</span>
+                      </div>
+                      <div class="card-body pt-3">
+                        <h2 class="mb-0">12,354</h2>
+                      </div>
+                      <div class="card-footer">
+                        <span>Vs last month: 8,554</span>
+                      </div>
                     </div>
                   </div>
-                  <div class="card-body py-0 d-flex align-items-start justify-content-between">
-                    <div class="d-flex align-items-center gap-2">
-                      <h2 class="mb-0">5,758</h2>
-                      <span class="badge badge-sm bg-success-subtle text-success">+2.57%</span>
-                    </div>
-                    <div id="chartContacts" class="mb-n4 mt-n3"></div>
-                  </div>
-                  <div class="card-footer border-0 pt-0 mt-n1">
-                    <div class="border-top pb-2"></div>
-                    <div class="d-flex align-items-center justify-content-between">
-                      <p class="mb-0">Vs last month:Â 1,195</p>
-                      <a href="javascript:void(0);" class="btn-link">
-                        <svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path opacity="0.5" d="M3.33301 9.375C2.98783 9.375 2.70801 9.65483 2.70801 10C2.70801 10.3452 2.98783 10.625 3.33301 10.625V9.375ZM3.33301 10.625H16.6663V9.375H3.33301V10.625Z" fill="var(--bs-primary)"></path>
-                          <path d="M11.667 5L16.667 10L11.667 15" stroke="var(--bs-primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                        </svg>
-                      </a>
+                  <div class="col-12 col-sm-6 col-lg-12">
+                    <div class="card">
+                      <div class="card-header pb-0 border-0 d-flex align-items-center justify-content-between">
+                        <h6 class="card-title mb-0">Customer Satisfaction</h6>
+                        <span class="badge bg-success-subtle text-success">+12.1%</span>
+                      </div>
+                      <div class="card-body pt-3">
+                        <h2 class="mb-0">94%</h2>
+                      </div>
+                      <div class="card-footer">
+                        <span>Vs last month: 20%</span>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-
-              <div class="col-xxl-6 col-md-6">
-                <div class="card overflow-hidden">
-                  <div class="card-header d-flex align-items-center justify-content-between border-0 pb-0">
-                    <div class="clearfix">
-                      <h6>Lead Analytics</h6>
-                    </div>
-                    <div class="btn-group">
-                      <button class="btn btn-action-primary btn-sm btn-icon waves-effect dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <i class="fi fi-bs-menu-dots"></i>
-                      </button>
-                      <ul class="dropdown-menu dropdown-menu-end">
-                        <li>
-                          <a class="dropdown-item" href="javascript:void(0);">Edit</a>
-                        </li>
-                        <li>
-                          <a class="dropdown-item" href="javascript:void(0);">Delete</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="card-body pt-0">
-                    <div class="d-flex align-items-center gap-2">
-                      <h2 class="mb-0">70</h2>
-                      <span class="badge badge-sm bg-danger-subtle text-danger">-2.57%</span>
-                    </div>
-                  </div>
-                  <div class="card-footer border-0 p-0">
-                    <div id="chartLeadAnalytics" class="my-n3 mx-n1"></div>
-                    <div class="position-absolute bottom-0 translate-middle start-50 text-center text-1xs w-100">Compared to LastÂ Month</div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-xxl-6 col-md-6">
+              <div class="col-lg-6">
                 <div class="card">
-                  <div class="card-body">
-                    <div class="mb-4">
-                      <div class="d-flex justify-content-between mb-2">
-                        <h6 class="mb-0">Tasks Overview</h6>
-                        <span class="text-2xs">Tasks Done <span class="text-primary fw-semibold">25</span>
-                        </span>
-                      </div>
-                      <div class="progress progress-sm" role="progressbar" aria-label="Default striped example" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 70%"></div>
-                      </div>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-between">
-                      <div class="d-grid text-1xs">
-                        <div class="d-flex gap-1 align-items-center py-1 mx-1">
-                          <i class="fa fa-square text-primary text-opacity-10 me-1"></i>
-                          Follow-ups
+                  <div class="card-header pb-0 border-0 d-flex align-items-center justify-content-between">
+                    <h6 class="card-title mb-0">New Team Members</h6>
+                    <span class="badge bg-success-subtle text-success">+18.6%</span>
+                  </div>
+                  <div class="card-body pt-2">
+                    <h2 class="mb-0">4,544</h2>
+                    <div id="chartNewTeam" class="mb-n6 mt-n6 d-flex justify-content-end"></div>
+                  </div>
+                  <div class="card-footer p-0">
+                    <div class="row g-0">
+                      <div class="col-6 border-end p-3">
+                        <div class="d-flex align-items-center justify-content-between mb-1">
+                          <h4 class="mb-0">248</h4>
+                          <span class="badge badge-sm bg-success-subtle text-success">+12.1%</span>
                         </div>
-                        <div class="d-flex gap-1 align-items-center py-1 mx-1">
-                          <i class="fa fa-square text-primary text-opacity-25 me-1"></i>
-                          In Progress
-                        </div>
-                        <div class="d-flex gap-1 align-items-center py-1 mx-1">
-                          <i class="fa fa-square text-primary text-opacity-50 me-1"></i>
-                          Pending
-                        </div>
+                        <span>Active Leads</span>
                       </div>
-                      <div class="maxw-100px ratio ratio-1x1">
-                        <canvas id="chartTasksOverview"></canvas>
+                      <div class="col-6 p-3">
+                        <div class="d-flex align-items-center justify-content-between mb-1">
+                          <h4 class="mb-0">192</h4>
+                          <span class="badge badge-sm bg-success-subtle text-success">+9.1%</span>
+                        </div>
+                        <span>Converted Leads</span>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-
-              <div class="col-xxl-6 col-md-6">
-                <div class="card">
-                  <div class="card-header d-flex align-items-center justify-content-between border-0 pb-0">
-                    <div class="clearfix">
-                      <h6>Active Deals</h6>
-                    </div>
-                    <div class="btn-group">
-                      <button class="btn btn-action-primary btn-sm btn-icon waves-effect dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <i class="fi fi-bs-menu-dots"></i>
-                      </button>
-                      <ul class="dropdown-menu dropdown-menu-end">
-                        <li>
-                          <a class="dropdown-item" href="javascript:void(0);">Edit</a>
-                        </li>
-                        <li>
-                          <a class="dropdown-item" href="javascript:void(0);">Delete</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="card-body pt-0">
-                    <div class="d-flex align-items-center gap-2">
-                      <h2 class="mb-0">1,249</h2>
-                      <span class="badge badge-sm bg-success-subtle text-success">+2.57%</span>
-                    </div>
-                  </div>
-                  <div class="card-footer border-0 pt-0">
-                    <div class="border-top pb-2"></div>
-                    <div class="d-flex align-items-center justify-content-between">
-                      <p class="mb-0">Vs last month:Â 1,195</p>
-                      <a href="javascript:void(0);" class="btn-link">
-                        <svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path opacity="0.5" d="M3.33301 9.375C2.98783 9.375 2.70801 9.65483 2.70801 10C2.70801 10.3452 2.98783 10.625 3.33301 10.625V9.375ZM3.33301 10.625H16.6663V9.375H3.33301V10.625Z" fill="var(--bs-primary)"></path>
-                          <path d="M11.667 5L16.667 10L11.667 15" stroke="var(--bs-primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                        </svg>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-xxl-12">
-                <div class="card">
-                  <div class="card-header d-flex flex-wrap gap-2 align-items-center justify-content-between border-0 pb-2">
-                    <h6 class="card-title mb-0">Revenue</h6>
-                    <div class="d-flex flex-wrap gap-2">
-                      <ul class="nav nav-pills nav-pills-custom nav-fill p-1 bg-light rounded-5" id="chartRevenueTabs" role="tablist">
-                        <li class="nav-item" role="presentation">
-                          <button class="nav-link rounded-5" id="todayRevenueTab" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">
-                            Today
-                          </button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                          <button class="nav-link rounded-5" id="weekRevenueTab" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">
-                            Week
-                          </button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                          <button class="nav-link active rounded-5" id="monthRevenueTab" data-bs-toggle="tab" type="button" role="tab" aria-selected="true">
-                            Month
-                          </button>
-                        </li>
-                      </ul>
-                      <button type="button" class="btn btn-light rounded-circle btn-icon waves-effect waves-light flatpickr-date">
-                        <i class="fi fi-rr-calendar"></i>
-                      </button>
-                    </div>
-                  </div>
-                  <div class="card-body py-0">
-                    <div class="d-flex gap-2 align-items-center">
-                      <h2 class="mb-0">
-                        <span class="text-body">$</span>2,56,054.<span class="text-primary">50</span>
-                      </h2>
-                      <span>+20% vs last month</span>
-                    </div>
-                  </div>
-                  <div class="card-footer border-0 px-1 py-0">
-                    <div id="chartRevenue" class="revenue-chart"></div>
-                  </div>
-                </div>
-              </div>
-
             </div>
           </div>
 
-          <div class="col-xxl-3 col-lg-4">
-            <div class="row">
-
-              <div class="col-xxl-12">
-                <div class="card">
-                  <div class="card-header d-flex align-items-center justify-content-between border-0 pb-0">
-                    <h6 class="card-title mb-0">Traffic Sources</h6>
-                    <div class="btn-group">
-                      <button class="btn btn-action-primary btn-sm btn-icon waves-effect dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <i class="fi fi-bs-menu-dots"></i>
-                      </button>
-                      <ul class="dropdown-menu dropdown-menu-end">
-                        <li>
-                          <a class="dropdown-item" href="javascript:void(0);">Edit</a>
-                        </li>
-                        <li>
-                          <a class="dropdown-item" href="javascript:void(0);">Delete</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="card-body pt-0">
-                    <div id="chartTrafficSources" class="chart-rounded my-1"></div>
-                    <div class="d-grid gap-1">
-                      <div class="d-flex gap-1 align-items-center py-1 mx-1">
-                        <i class="fa fa-square text-primary text-opacity-10 me-1"></i>
-                        Organic Search
-                        <strong class="text-dark fw-semibold ms-auto">41.50%</strong>
-                      </div>
-                      <div class="d-flex gap-1 align-items-center py-1 mx-1">
-                        <i class="fa fa-square text-primary text-opacity-25 me-1"></i>
-                        Direct Traffic
-                        <strong class="text-dark fw-semibold ms-auto">27%</strong>
-                      </div>
-                      <div class="d-flex gap-1 align-items-center py-1 mx-1">
-                        <i class="fa fa-square text-primary text-opacity-50 me-1"></i>
-                        Referral Traffic
-                        <strong class="text-dark fw-semibold ms-auto">18%</strong>
-                      </div>
-                      <div class="d-flex gap-1 align-items-center py-1 py-1 mx-1">
-                        <i class="fa fa-square text-primary text-opacity-75 me-1"></i>
-                        Social Media
-                        <strong class="text-dark fw-semibold ms-auto">10.30%</strong>
-                      </div>
-                      <div class="d-flex gap-1 align-items-center py-1 mx-1">
-                        <i class="fa fa-square text-primary me-1"></i>
-                        Email Traffic
-                        <strong class="text-dark fw-semibold ms-auto">3.20%</strong>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card-footer bg-primary bg-opacity-05 py-2 d-flex justify-content-between align-items-center">
-                    <h6 class="mb-0">Annual report</h6>
-                    <button type="button" class="btn btn-sm btn-white waves-effect text-primary fw-semibold">
-                      <svg class="me-1" width="18" height="18" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path opacity="0.5" d="M2.5 12.5C2.5 14.857 2.5 16.0355 3.23223 16.7677C3.96447 17.5 5.14297 17.5 7.5 17.5H12.5C14.857 17.5 16.0355 17.5 16.7677 16.7677C17.5 16.0355 17.5 14.857 17.5 12.5" stroke="var(--bs-primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                        <path d="M10.0003 2.5V13.3333M10.0003 13.3333L13.3337 9.6875M10.0003 13.3333L6.66699 9.6875" stroke="var(--bs-primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                      </svg>
-                      Downlead
-                    </button>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-xxl-12">
-                <div class="card">
-                  <div class="card-header d-flex align-items-center justify-content-between border-0 pb-0">
-                    <h6 class="card-title mb-0">Retention Rate</h6>
-                    <div class="btn-group">
-                      <button class="btn btn-action-primary btn-sm btn-icon waves-effect dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <i class="fi fi-bs-menu-dots"></i>
-                      </button>
-                      <ul class="dropdown-menu dropdown-menu-end">
-                        <li>
-                          <a class="dropdown-item" href="javascript:void(0);">Edit</a>
-                        </li>
-                        <li>
-                          <a class="dropdown-item" href="javascript:void(0);">Delete</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="card-body pb-0 pt-0">
-                    <div class="d-flex gap-2 align-items-center">
-                      <h2 class="mb-0">92%</h2>
-                      <span>+15% vs last month</span>
-                    </div>
-                  </div>
-                  <div class="card-footer border-0 pb-0 pt-1 px-1">
-                    <div id="chartRetentionRate" class="retention-chart mt-n1"></div>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-
-          <div class="col-xxl-3 col-lg-6">
-            <div class="row">
-
-              <div class="col-12">
-                <div class="card overflow-hidden bg-primary border-0 ovarlay-primary-gradient" style="background-image: url(assets/backoffice/images/wind.gif); background-position: center; background-size: cover;">
-                  <div class="card-header pb-0 border-0 d-flex align-items-center justify-content-between z-1 position-relative">
-                    <h6 class="card-title mb-0 text-white">Total Earning</h6>
-                    <div class="btn-group">
-                      <button class="btn btn-sm btn-icon text-white waves-effect dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <i class="fi fi-bs-menu-dots"></i>
-                      </button>
-                      <ul class="dropdown-menu dropdown-menu-end">
-                        <li>
-                          <a class="dropdown-item" href="javascript:void(0);">Edit</a>
-                        </li>
-                        <li>
-                          <a class="dropdown-item" href="javascript:void(0);">Delete</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="card-body pt-0 border-light border-bottom border-opacity-10">
-                    <div class="mb-5 mt-n3 z-n1 position-relative">
-                      <div id="statusChart"></div>
-                      <div class="text-white mt-n5 text-center">673 Orders</div>
-                    </div>
-                    <div class="px-4 mb-3 d-flex align-items-start justify-content-between">
-                      <div class="d-flex align-items-start gap-2">
-                        <div class="py-1">
-                          <i class="text-white fa-solid fa-square"></i>
-                        </div>
-                        <div class="clearfix">
-                          <h3 class="mb-0 text-white">$2.78m</h3>
-                          <p class="text-white text-opacity-50 mb-0">245 Pickups</p>
-                        </div>
-                      </div>
-                      <div class="d-flex align-items-start gap-2">
-                        <div class="p-1">
-                          <i class="text-white text-opacity-50 fa-solid fa-square"></i>
-                        </div>
-                        <div class="clearfix">
-                          <h3 class="mb-0 text-white">$65,823</h3>
-                          <p class="text-white text-opacity-50 mb-0">120 Shipment</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card-footer border-0">
-                    <h6 class="card-title mb-3 text-white">Orders Status</h6>
-                    <div class="progress-stacked bg-transparent mb-4">
-                      <div class="progress bg-transparent" role="progressbar" aria-label="Segment one" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
-                        <div class="progress-bar bg-white"></div>
-                      </div>
-                      <div class="progress bg-transparent" role="progressbar" aria-label="Segment two" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 25%">
-                        <div class="progress-bar bg-white bg-opacity-50"></div>
-                      </div>
-                      <div class="progress bg-transparent" role="progressbar" aria-label="Segment three" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 5%">
-                        <div class="progress-bar bg-white bg-opacity-25"></div>
-                      </div>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-between mb-2">
-                      <div class="d-flex align-items-center gap-2">
-                        <i class="text-white fa-solid fa-square"></i>
-                        <h6 class="fw-light text-white mb-0">Paid</h6>
-                      </div>
-                      <strong class="text-white fw-semibold">70%</strong>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-between mb-2">
-                      <div class="d-flex align-items-center gap-2">
-                        <i class="text-white text-opacity-50 fa-solid fa-square"></i>
-                        <h6 class="fw-light text-white mb-0">Cancelled</h6>
-                      </div>
-                      <strong class="text-white fw-semibold">25%</strong>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-between mb-2">
-                      <div class="d-flex align-items-center gap-2">
-                        <i class="text-white text-opacity-25 fa-solid fa-square"></i>
-                        <h6 class="fw-light text-white mb-0">Refunded</h6>
-                      </div>
-                      <strong class="text-white fw-semibold">5%</strong>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-12">
-                <div class="card">
-                  <div class="card-header d-flex align-items-center justify-content-between border-0 pb-0">
-                    <h6 class="card-title mb-0">Order By Time</h6>
-                    <div class="btn-group">
-                      <button class="btn btn-action-primary btn-sm btn-icon waves-effect dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <i class="fi fi-bs-menu-dots"></i>
-                      </button>
-                      <ul class="dropdown-menu dropdown-menu-end">
-                        <li>
-                          <a class="dropdown-item" href="javascript:void(0);">Edit</a>
-                        </li>
-                        <li>
-                          <a class="dropdown-item" href="javascript:void(0);">Delete</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="card-body p-0">
-                    <div id="chartOrderByTime" class="mt-n3 mb-n1"></div>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-
-          <div class="col-xxl-3 col-lg-6">
-            <div class="card overflow-hidden">
-              <div class="card-header d-flex align-items-center justify-content-between border-0 pb-0">
-                <h6 class="card-title">Upcoming Meetings</h6>
-                <div class="d-flex gap-2">
-                  <button type="button" class="btn btn-sm btn-icon btn-action-primary waves-effect">
-                    <i class="fi fi-rr-plus text-2xs"></i>
-                  </button>
+          <div class="col-xxl-6">
+            <div class="card">
+              <div class="card-header pb-0 border-0 d-flex align-items-center justify-content-between">
+                <h6 class="card-title mb-0">Team Performances</h6>
+                <div class="d-flex align-items-center gap-3">
                   <div class="btn-group">
                     <button class="btn btn-action-primary btn-sm btn-icon waves-effect dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                       <i class="fi fi-bs-menu-dots"></i>
@@ -1561,230 +1219,185 @@
                   </div>
                 </div>
               </div>
-              <div class="card-body gradient-layer" style="height: 325px;" data-simplebar="">
-                <div class="p-3 bg-light bg-opacity-50 mb-2 rounded">
-                  <div class="d-flex align-items-center justify-content-between">
-                    <h6 class="mb-0 text-sm">Team Stand Up</h6>
-                    <div class="clearfix d-flex align-items-center">
-                      <div class="btn-group">
-                        <button class="btn btn-action-primary btn-sm btn-icon waves-effect dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          <i class="fi fi-bs-menu-dots"></i>
-                        </button>
-                        <ul class="dropdown-menu dropdown-menu-end">
-                          <li>
-                            <a class="dropdown-item" href="javascript:void(0);">Edit</a>
-                          </li>
-                          <li>
-                            <a class="dropdown-item" href="javascript:void(0);">Delete</a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="text-1xs d-flex gap-1 align-items-center">
-                    <img src="assets/backoffice/images/icons/google-meet.svg" alt="">
-                    <span>On Google Meet</span>
-                  </div>
-                  <div class="d-flex justify-content-between align-items-center mt-3">
-                    <span class="badge bg-white text-black">Marketing</span>
-                    <span class="text-primary text-2xs fw-semibold d-flex align-items-center">
-                      <i class="fi fi-rr-clock-three me-1"></i> 06:00 - 07:00
-                    </span>
-                  </div>
-                </div>
-                <div class="p-3 bg-light bg-opacity-50 mb-2 rounded">
-                  <div class="d-flex align-items-center justify-content-between">
-                    <h6 class="mb-0 text-sm">All Hands Meeting</h6>
-                    <div class="clearfix d-flex align-items-center">
-                      <div class="btn-group">
-                        <button class="btn btn-action-primary btn-sm btn-icon waves-effect dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          <i class="fi fi-bs-menu-dots"></i>
-                        </button>
-                        <ul class="dropdown-menu dropdown-menu-end">
-                          <li>
-                            <a class="dropdown-item" href="javascript:void(0);">Edit</a>
-                          </li>
-                          <li>
-                            <a class="dropdown-item" href="javascript:void(0);">Delete</a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="text-1xs d-flex gap-1 align-items-center">
-                    <img src="assets/backoffice/images/icons/google-meet.svg" alt="">
-                    <span>On Google Meet</span>
-                  </div>
-                  <div class="d-flex justify-content-between align-items-center mt-3">
-                    <span class="badge bg-white text-black">Manager</span>
-                    <span class="text-primary text-2xs fw-semibold d-flex align-items-center">
-                      <i class="fi fi-rr-clock-three me-1"></i> 06:00 - 07:00
-                    </span>
-                  </div>
-                </div>
-                <div class="p-3 bg-light bg-opacity-50 mb-2 rounded">
-                  <div class="d-flex align-items-center justify-content-between">
-                    <h6 class="mb-0 text-sm">Sprint Planning</h6>
-                    <div class="clearfix d-flex align-items-center">
-                      <div class="btn-group">
-                        <button class="btn btn-action-primary btn-sm btn-icon waves-effect dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          <i class="fi fi-bs-menu-dots"></i>
-                        </button>
-                        <ul class="dropdown-menu dropdown-menu-end">
-                          <li>
-                            <a class="dropdown-item" href="javascript:void(0);">Edit</a>
-                          </li>
-                          <li>
-                            <a class="dropdown-item" href="javascript:void(0);">Delete</a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="text-1xs d-flex gap-1 align-items-center">
-                    <img src="assets/backoffice/images/icons/google-meet.svg" alt="">
-                    <span>On Google Meet</span>
-                  </div>
-                  <div class="d-flex justify-content-between align-items-center mt-3">
-                    <span class="badge bg-white text-black">HR</span>
-                    <span class="text-primary text-2xs fw-semibold d-flex align-items-center">
-                      <i class="fi fi-rr-clock-three me-1"></i> 06:00 - 07:00
-                    </span>
-                  </div>
-                </div>
-                <div class="p-3 bg-light bg-opacity-50 mb-2 rounded">
-                  <div class="d-flex align-items-center justify-content-between">
-                    <h6 class="mb-0 text-sm">Team Stand Up</h6>
-                    <div class="clearfix d-flex align-items-center">
-                      <div class="btn-group">
-                        <button class="btn btn-action-primary btn-sm btn-icon waves-effect dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          <i class="fi fi-bs-menu-dots"></i>
-                          <i class="fi fi-bs-menu-dots"></i>
-                        </button>
-                        <ul class="dropdown-menu dropdown-menu-end">
-                          <li>
-                            <a class="dropdown-item" href="javascript:void(0);">Edit</a>
-                          </li>
-                          <li>
-                            <a class="dropdown-item" href="javascript:void(0);">Delete</a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="text-1xs d-flex gap-1 align-items-center">
-                    <img src="assets/backoffice/images/icons/google-meet.svg" alt="">
-                    <span>On Google Meet</span>
-                  </div>
-                  <div class="d-flex justify-content-between align-items-center mt-3">
-                    <span class="badge bg-white text-black">Marketing</span>
-                    <span class="text-primary text-2xs fw-semibold d-flex align-items-center">
-                      <i class="fi fi-rr-clock-three me-1"></i> 06:00 - 07:00
-                    </span>
-                  </div>
-                </div>
-                <div class="p-3 bg-light bg-opacity-50 mb-2 rounded">
-                  <div class="d-flex align-items-center justify-content-between">
-                    <h6 class="mb-0 text-sm">All Hands Meeting</h6>
-                    <div class="clearfix d-flex align-items-center">
-                      <div class="btn-group">
-                        <button class="btn btn-action-primary btn-sm btn-icon waves-effect dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          <i class="fi fi-bs-menu-dots"></i>
-                        </button>
-                        <ul class="dropdown-menu dropdown-menu-end">
-                          <li>
-                            <a class="dropdown-item" href="javascript:void(0);">Edit</a>
-                          </li>
-                          <li>
-                            <a class="dropdown-item" href="javascript:void(0);">Delete</a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="text-1xs d-flex gap-1 align-items-center">
-                    <img src="assets/backoffice/images/icons/google-meet.svg" alt="">
-                    <span>On Google Meet</span>
-                  </div>
-                  <div class="d-flex justify-content-between align-items-center mt-3">
-                    <span class="badge bg-white text-black">Manager</span>
-                    <span class="text-primary text-2xs fw-semibold d-flex align-items-center">
-                      <i class="fi fi-rr-clock-three me-1"></i> 06:00 - 07:00
-                    </span>
-                  </div>
-                </div>
+              <div class="card-body p-0">
+                <div id="TeamPerformanceChart"></div>
               </div>
             </div>
           </div>
 
-          <div class="col-xxl-4 col-lg-6">
-            <div class="card overflow-hidden">
-              <div class="card-header d-flex align-items-center justify-content-between border-0 pb-2">
-                <h6 class="card-title mb-0">Deals Overview</h6>
-                <div class="d-flex gap-2 align-items-center">
-                  <span>+15% vs last month</span>
-                  <div class="btn-group ms-2">
-                    <button class="btn btn-action-primary btn-sm btn-icon waves-effect dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      <i class="fi fi-bs-menu-dots"></i>
-                    </button>
-                    <ul class="dropdown-menu dropdown-menu-end">
-                      <li>
-                        <a class="dropdown-item" href="javascript:void(0);">Edit</a>
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="javascript:void(0);">Delete</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+          <div class="col-xxl-9 col-xl-8">
+            <div class="card">
+              <div class="card-header pb-0 border-0 d-flex align-items-center justify-content-between">
+                <h6 class="card-title mb-0">Recent Projects</h6>
+                <a href="javascript:void(0);" class="btn-link">View All</a>
               </div>
               <div class="card-body">
-                <div class="row g-2">
-                  <div class="col-sm-6">
-                    <div class="d-flex align-items-center border border-1 py-3 px-3 rounded-2">
-                      <div class="avatar avatar-sm bg-light rounded-circle me-2">
-                        <i class="fi fi-rr-check-double text-md"></i>
-                      </div>
-                      <div class="clearfix">
-                        <h6 class="text-body mb-0 text-1xs">Closed Deals</h6>
-                        <div class="d-flex align-items-end">
-                          <h4 class="mb-0">27</h4>
-                          <span class="text-success text-1xs ms-1">+10 Deals</span>
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <div class="card-body border rounded">
+                      <div class="d-flex align-items-start justify-content-between">
+                        <div class="clearfix">
+                          <h6 class="mb-1">CRM Revamp System</h6>
+                          <small>Deadline: 31 Oct 2025</small>
                         </div>
+                        <div class="d-flex align-items-center gap-3">
+                          <div class="btn-group">
+                            <button class="btn btn-action-primary btn-sm btn-icon waves-effect dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="fi fi-bs-menu-dots"></i>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                              <li>
+                                <a class="dropdown-item" href="javascript:void(0);">Edit</a>
+                              </li>
+                              <li>
+                                <a class="dropdown-item" href="javascript:void(0);">Delete</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <hr class="my-3">
+                      <div class="d-flex align-items-end justify-content-between mb-2">
+                        <div class="clearfix">
+                          <h4 class="mb-0">58<span class="text-body">/70</span>
+                          </h4>
+                          <span>Tasks</span>
+                        </div>
+                        <span class="text-success fw-semibold mb-0">
+                          <i class="fi fi-rr-arrow-trend-up me-1"></i> 83%
+                        </span>
+                      </div>
+                      <div class="progress bg-light" style="height: 8px">
+                        <div class="progress-bar bg-success" style="width: 83%"></div>
                       </div>
                     </div>
                   </div>
-                  <div class="col-sm-6">
-                    <div class="d-flex align-items-center border border-1 py-3 px-3 rounded-2">
-                      <div class="avatar avatar-sm bg-light rounded-circle me-2">
-                        <i class="fi fi-rr-clock-five text-md"></i>
-                      </div>
-                      <div class="clearfix">
-                        <h6 class="text-body mb-0 text-1xs">Pipeline Value</h6>
-                        <div class="d-flex align-items-end">
-                          <h4 class="mb-0">$5.2M</h4>
-                          <span class="text-success text-1xs ms-1">+$270K</span>
+                  <div class="col-md-6">
+                    <div class="card-body border rounded">
+                      <div class="d-flex align-items-start justify-content-between">
+                        <div class="clearfix">
+                          <h6 class="mb-1">Customer Onboarding Flow</h6>
+                          <small>Deadline: 05 Nov 2025</small>
                         </div>
+                        <div class="d-flex align-items-center gap-3">
+                          <div class="btn-group">
+                            <button class="btn btn-action-primary btn-sm btn-icon waves-effect dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="fi fi-bs-menu-dots"></i>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                              <li>
+                                <a class="dropdown-item" href="javascript:void(0);">Edit</a>
+                              </li>
+                              <li>
+                                <a class="dropdown-item" href="javascript:void(0);">Delete</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <hr class="my-3">
+                      <div class="d-flex align-items-end justify-content-between mb-2">
+                        <div class="clearfix">
+                          <h4 class="mb-0">39<span class="text-body">/60</span>
+                          </h4>
+                          <span>Tasks</span>
+                        </div>
+                        <span class="text-warning fw-semibold mb-0">
+                          <i class="fi fi-rr-arrow-trend-up me-1"></i> 65%
+                        </span>
+                      </div>
+                      <div class="progress bg-light" style="height: 8px">
+                        <div class="progress-bar bg-warning" style="width: 65%"></div>
                       </div>
                     </div>
                   </div>
-                </div>
-              </div>
-              <div class="card-footer border-0 p-0">
-                <div id="chartDealsOverview" class="my-n3 mx-n1"></div>
-                <div class="bg-white d-inline-block position-absolute bottom-0 px-3 py-2 rounded-5 shadow-sm translate-middle start-50">
-                  <span class="text-info fw-semibold">Conversion Rate</span>
-                  <span class="text-dark fw-bold">16%</span>
-                  <span class="text-danger fw-bold">-2%</span>
+                  <div class="col-md-6">
+                    <div class="card-body border rounded">
+                      <div class="d-flex align-items-start justify-content-between">
+                        <div class="clearfix">
+                          <h6 class="mb-1">Lead Tracker Automation</h6>
+                          <small>Deadline: 10 Nov 2025</small>
+                        </div>
+                        <div class="d-flex align-items-center gap-3">
+                          <div class="btn-group">
+                            <button class="btn btn-action-primary btn-sm btn-icon waves-effect dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="fi fi-bs-menu-dots"></i>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                              <li>
+                                <a class="dropdown-item" href="javascript:void(0);">Edit</a>
+                              </li>
+                              <li>
+                                <a class="dropdown-item" href="javascript:void(0);">Delete</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <hr class="my-3">
+                      <div class="d-flex align-items-end justify-content-between mb-2">
+                        <div class="clearfix">
+                          <h4 class="mb-0">52<span class="text-body">/100</span>
+                          </h4>
+                          <span>Tasks</span>
+                        </div>
+                        <span class="text-info fw-semibold mb-0">
+                          <i class="fi fi-rr-arrow-trend-up me-1"></i> 52%
+                        </span>
+                      </div>
+                      <div class="progress bg-light" style="height: 8px">
+                        <div class="progress-bar bg-info" style="width: 52%"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body border rounded">
+                      <div class="d-flex align-items-start justify-content-between">
+                        <div class="clearfix">
+                          <h6 class="mb-1">Support Chatbot Upgrade</h6>
+                          <small>Deadline: 08 Nov 2025</small>
+                        </div>
+                        <div class="d-flex align-items-center gap-3">
+                          <div class="btn-group">
+                            <button class="btn btn-action-primary btn-sm btn-icon waves-effect dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="fi fi-bs-menu-dots"></i>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                              <li>
+                                <a class="dropdown-item" href="javascript:void(0);">Edit</a>
+                              </li>
+                              <li>
+                                <a class="dropdown-item" href="javascript:void(0);">Delete</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <hr class="my-3">
+                      <div class="d-flex align-items-end justify-content-between mb-2">
+                        <div class="clearfix">
+                          <h4 class="mb-0">73<span class="text-body">/100</span>
+                          </h4>
+                          <span>Tasks</span>
+                        </div>
+                        <span class="text-success fw-semibold mb-0">
+                          <i class="fi fi-rr-arrow-trend-up me-1"></i> 73%
+                        </span>
+                      </div>
+                      <div class="progress bg-light" style="height: 8px">
+                        <div class="progress-bar bg-success" style="width: 73%"></div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-xxl-5 col-lg-6">
+          <div class="col-xxl-3 col-xl-4">
             <div class="card">
-              <div class="card-header d-flex align-items-center justify-content-between border-0 pb-0">
-                <h6 class="card-title">Sales Pipeline Overview</h6>
+              <div class="card-header pb-0 border-0 d-flex align-items-center justify-content-between">
+                <h6 class="card-title mb-0">Team Control</h6>
                 <div class="btn-group">
                   <button class="btn btn-action-primary btn-sm btn-icon waves-effect dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                     <i class="fi fi-bs-menu-dots"></i>
@@ -1799,56 +1412,128 @@
                   </ul>
                 </div>
               </div>
-              <div class="card-body pt-2">
-                <div class="d-flex gap-2 align-items-center mb-5">
-                  <h2 class="mb-0">
-                    <span class="text-body">$</span>2,56,054.<span class="text-primary">50</span>
-                  </h2>
-                  <span>+20% vs last month</span>
-                </div>
-                <div class="progress progress-primary progress-overlap mb-1" role="progressbar" aria-label="Leads">
-                  <div class="progress-label">Leads</div>
-                  <div class="progress-value">120</div>
-                  <div class="progress-bar" style="width: 85%"></div>
-                </div>
-                <div class="progress progress-success progress-overlap mb-1" role="progressbar" aria-label="Prospects">
-                  <div class="progress-label">Prospects</div>
-                  <div class="progress-value">85</div>
-                  <div class="progress-bar" style="width: 60%"></div>
-                </div>
-                <div class="progress progress-info progress-overlap mb-1" role="progressbar" aria-label="Opportunities">
-                  <div class="progress-label">Opportunities</div>
-                  <div class="progress-value">40</div>
-                  <div class="progress-bar" style="width: 40%"></div>
-                </div>
-                <div class="progress progress-danger progress-overlap mb-1" role="progressbar" aria-label="Closed Deals">
-                  <div class="progress-label">Closed Deals</div>
-                  <div class="progress-value">20</div>
-                  <div class="progress-bar" style="width: 25%"></div>
-                </div>
-              </div>
-              <div class="card-footer bg-primary bg-opacity-05 py-2 d-flex justify-content-between align-items-center">
-                <h6 class="mb-0">Annual report</h6>
-                <button type="button" class="btn btn-sm btn-white waves-effect text-primary fw-semibold">
-                  <i class="fi fi-rr-plus text-2xs me-1"></i> Downlead
-                </button>
+              <div class="card-body">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item px-0">
+                    <div class="d-flex align-items-center">
+                      <div class="d-flex align-items-center me-auto">
+                        <div class="avatar rounded-circle me-2">
+                          <img src="assets/backoffice/images/avatar/avatar1.webp" alt="">
+                        </div>
+                        <div class="clearfix">
+                          <h6 class="mb-0">Emma Johnson</h6>
+                          <span class="text-2xs text-body">5 Tasks Handled</span>
+                        </div>
+                      </div>
+                      <div class="d-flex align-items-center gap-2">
+                        <button class="btn btn-outline-light btn-icon waves-effect rounded-pill" type="button">
+                          <i class="fi fi-rr-phone-call"></i>
+                        </button>
+                        <button class="btn btn-outline-light btn-icon waves-effect rounded-pill" type="button">
+                          <i class="fi fi-rs-comment-dots"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="list-group-item px-0">
+                    <div class="d-flex align-items-center">
+                      <div class="d-flex align-items-center me-auto">
+                        <div class="avatar rounded-circle me-2">
+                          <img src="assets/backoffice/images/avatar/avatar1.webp" alt="">
+                        </div>
+                        <div class="clearfix">
+                          <h6 class="mb-0">Liam Smith</h6>
+                          <span class="text-2xs text-body">8 Tasks Handled</span>
+                        </div>
+                      </div>
+                      <div class="d-flex align-items-center gap-2">
+                        <button class="btn btn-outline-light btn-icon waves-effect rounded-pill" type="button">
+                          <i class="fi fi-rr-phone-call"></i>
+                        </button>
+                        <button class="btn btn-outline-light btn-icon waves-effect rounded-pill" type="button">
+                          <i class="fi fi-rs-comment-dots"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="list-group-item px-0">
+                    <div class="d-flex align-items-center">
+                      <div class="d-flex align-items-center me-auto">
+                        <div class="avatar rounded-circle me-2">
+                          <img src="assets/backoffice/images/avatar/avatar3.webp" alt="">
+                        </div>
+                        <div class="clearfix">
+                          <h6 class="mb-0">Olivia Brown</h6>
+                          <span class="text-2xs text-body">6 Tasks Handled</span>
+                        </div>
+                      </div>
+                      <div class="d-flex align-items-center gap-2">
+                        <button class="btn btn-outline-light btn-icon waves-effect rounded-pill" type="button">
+                          <i class="fi fi-rr-phone-call"></i>
+                        </button>
+                        <button class="btn btn-outline-light btn-icon waves-effect rounded-pill" type="button">
+                          <i class="fi fi-rs-comment-dots"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="list-group-item px-0">
+                    <div class="d-flex align-items-center">
+                      <div class="d-flex align-items-center me-auto">
+                        <div class="avatar rounded-circle me-2">
+                          <img src="assets/backoffice/images/avatar/avatar4.webp" alt="">
+                        </div>
+                        <div class="clearfix">
+                          <h6 class="mb-0">Noah Davis</h6>
+                          <span class="text-2xs text-body">9 Tasks Handled</span>
+                        </div>
+                      </div>
+                      <div class="d-flex align-items-center gap-2">
+                        <button class="btn btn-outline-light btn-icon waves-effect rounded-pill" type="button">
+                          <i class="fi fi-rr-phone-call"></i>
+                        </button>
+                        <button class="btn btn-outline-light btn-icon waves-effect rounded-pill" type="button">
+                          <i class="fi fi-rs-comment-dots"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="list-group-item px-0">
+                    <div class="d-flex align-items-center">
+                      <div class="d-flex align-items-center me-auto">
+                        <div class="avatar rounded-circle me-2">
+                          <img src="assets/backoffice/images/avatar/avatar5.webp" alt="">
+                        </div>
+                        <div class="clearfix">
+                          <h6 class="mb-0">Sophia Wilson</h6>
+                          <span class="text-2xs text-body">7 Tasks Handled</span>
+                        </div>
+                      </div>
+                      <div class="d-flex align-items-center gap-2">
+                        <button class="btn btn-outline-light btn-icon waves-effect rounded-pill" type="button">
+                          <i class="fi fi-rr-phone-call"></i>
+                        </button>
+                        <button class="btn btn-outline-light btn-icon waves-effect rounded-pill" type="button">
+                          <i class="fi fi-rs-comment-dots"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
 
-          <div class="col-xxl-8">
+          <div class="col-xxl-12">
             <div class="card overflow-hidden">
               <div class="card-header d-flex flex-wrap gap-3 align-items-center justify-content-between border-0 pb-0">
-                <h6 class="card-title mb-0">New Customers</h6>
-                <div class="d-flex flex-wrap gap-2">
-                  <div id="dt_NewCustomers_Search"></div>
-                  <button type="button" class="btn btn-sm btn-light waves-effect">
-                    <i class="fi fi-rr-plus text-2xs me-1"></i> Add New
-                  </button>
+                <h6 class="card-title mb-0">Team Performance List</h6>
+                <div class="d-flex">
+                  <div id="dt_TeamPerformance_Search"></div>
                 </div>
               </div>
               <div class="card-body px-1 pt-2 pb-2">
-                <table id="dt_NewCustomers" class="table table-sm display table-row-rounded data-row-checkbox">
+                <table id="dt_TeamPerformance" class="table table-sm display table-row-rounded data-row-checkbox">
                   <thead class="table-light">
                     <tr>
                       <th class="pe-0">
@@ -1856,12 +1541,15 @@
                           <input class="form-check-input" data-row-checkbox="" type="checkbox">
                         </div>
                       </th>
-                      <th class="minw-200px">Name</th>
-                      <th class="minw-150px">Phone</th>
-                      <th class="minw-150px">Email</th>
-                      <th class="minw-125px">Days</th>
-                      <th>Status</th>
-                      <th>Action</th>
+                      <th class="minw-200px">Member Name</th>
+                      <th class="minw-150px">Role</th>
+                      <th class="minw-150px">Assigned</th>
+                      <th class="minw-150px">Converted</th>
+                      <th class="minw-150px">Conversion Rate</th>
+                      <th class="minw-150px">Response Time</th>
+                      <th class="minw-150px">Rating</th>
+                      <th class="minw-100px">Status</th>
+                      <th class="minw-100px">Action</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -1876,21 +1564,26 @@
                           <div class="avatar avatar-xxs rounded-circle me-2">
                             <img src="assets/backoffice/images/avatar/avatar1.webp" alt="">
                           </div>
-                          William Johnson
+                          Emma Johnson
                         </div>
                       </td>
-                      <td>+1 555 123 4567</td>
-                      <td>johndoe1@example.com</td>
-                      <td>2 Days</td>
+                      <td>CRM Manager</td>
+                      <td>62</td>
+                      <td>51</td>
+                      <td>82%</td>
+                      <td>1.3 hrs</td>
                       <td>
-                        <span class="badge badge-lg bg-primary-subtle text-primary">Active</span>
+                        <i class="fi fi-ss-star me-1 text-warning"></i> Rating (4.9)
                       </td>
                       <td>
-                        <div class="btn-group float-end">
+                        <span class="badge badge-lg bg-success-subtle text-success">Active</span>
+                      </td>
+                      <td>
+                        <div class="btn-group">
                           <button class="btn btn-subtle-primary btn-sm btn-shadow btn-icon waves-effect dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="fi fi-rr-menu-dots"></i>
                           </button>
-                          <ul class="dropdown-menu dropdown-menu-end">
+                          <ul class="dropdown-menu dropdown-menu-start">
                             <li>
                               <a class="dropdown-item" href="javascript:void(0);">Edit</a>
                             </li>
@@ -1912,21 +1605,26 @@
                           <div class="avatar avatar-xxs rounded-circle me-2">
                             <img src="assets/backoffice/images/avatar/avatar1.webp" alt="">
                           </div>
-                          Benjamin Martinez
+                          Liam Anderson
                         </div>
                       </td>
-                      <td>+91 98765 43210</td>
-                      <td>janedoe2@example.com</td>
-                      <td>1st Half Day</td>
+                      <td>Sales Executive</td>
+                      <td>55</td>
+                      <td>42</td>
+                      <td>76%</td>
+                      <td>1.8 hrs</td>
                       <td>
-                        <span class="badge badge-lg bg-primary-subtle text-primary">Active</span>
+                        <i class="fi fi-ss-star me-1 text-warning"></i> Rating (4.7)
                       </td>
                       <td>
-                        <div class="btn-group float-end">
+                        <span class="badge badge-lg bg-success-subtle text-success">Active</span>
+                      </td>
+                      <td>
+                        <div class="btn-group">
                           <button class="btn btn-subtle-primary btn-sm btn-shadow btn-icon waves-effect dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="fi fi-rr-menu-dots"></i>
                           </button>
-                          <ul class="dropdown-menu dropdown-menu-end">
+                          <ul class="dropdown-menu dropdown-menu-start">
                             <li>
                               <a class="dropdown-item" href="javascript:void(0);">Edit</a>
                             </li>
@@ -1948,21 +1646,26 @@
                           <div class="avatar avatar-xxs rounded-circle me-2">
                             <img src="assets/backoffice/images/avatar/avatar3.webp" alt="">
                           </div>
-                          Alexander Brown
+                          Olivia Brown
                         </div>
                       </td>
-                      <td>+44 7700 900123</td>
-                      <td>testuser3@example.com</td>
-                      <td>4 Days</td>
+                      <td>Support Specialist</td>
+                      <td>49</td>
+                      <td>39</td>
+                      <td>79%</td>
+                      <td>1.5 hrs</td>
                       <td>
-                        <span class="badge badge-lg bg-success-subtle text-success">Pending</span>
+                        <i class="fi fi-ss-star me-1 text-warning"></i> Rating (4.8)
                       </td>
                       <td>
-                        <div class="btn-group float-end">
+                        <span class="badge badge-lg bg-success-subtle text-success">Active</span>
+                      </td>
+                      <td>
+                        <div class="btn-group">
                           <button class="btn btn-subtle-primary btn-sm btn-shadow btn-icon waves-effect dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="fi fi-rr-menu-dots"></i>
                           </button>
-                          <ul class="dropdown-menu dropdown-menu-end">
+                          <ul class="dropdown-menu dropdown-menu-start">
                             <li>
                               <a class="dropdown-item" href="javascript:void(0);">Edit</a>
                             </li>
@@ -1984,21 +1687,26 @@
                           <div class="avatar avatar-xxs rounded-circle me-2">
                             <img src="assets/backoffice/images/avatar/avatar4.webp" alt="">
                           </div>
-                          Michael Davis
+                          Noah Wilson
                         </div>
                       </td>
-                      <td>+61 412 345 678</td>
-                      <td>randomuser4@example.com</td>
-                      <td>2nd Half Day</td>
+                      <td>Lead Nurturer</td>
+                      <td>46</td>
+                      <td>31</td>
+                      <td>67%</td>
+                      <td>2.2 hrs</td>
                       <td>
-                        <span class="badge badge-lg bg-primary-subtle text-primary">Active</span>
+                        <i class="fi fi-ss-star me-1 text-warning"></i> Rating (4.5)
                       </td>
                       <td>
-                        <div class="btn-group float-end">
+                        <span class="badge badge-lg bg-success-subtle text-success">Active</span>
+                      </td>
+                      <td>
+                        <div class="btn-group">
                           <button class="btn btn-subtle-primary btn-sm btn-shadow btn-icon waves-effect dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="fi fi-rr-menu-dots"></i>
                           </button>
-                          <ul class="dropdown-menu dropdown-menu-end">
+                          <ul class="dropdown-menu dropdown-menu-start">
                             <li>
                               <a class="dropdown-item" href="javascript:void(0);">Edit</a>
                             </li>
@@ -2020,21 +1728,26 @@
                           <div class="avatar avatar-xxs rounded-circle me-2">
                             <img src="assets/backoffice/images/avatar/avatar5.webp" alt="">
                           </div>
-                          David Wilson
+                          Sophia Taylor
                         </div>
                       </td>
-                      <td>+81 90 1234 5678</td>
-                      <td>demoaccount5@example.com</td>
-                      <td>1 Days</td>
+                      <td>Customer Support</td>
+                      <td>43</td>
+                      <td>34</td>
+                      <td>79%</td>
+                      <td>1.6 hrs</td>
                       <td>
-                        <span class="badge badge-lg bg-success-subtle text-success">Pending</span>
+                        <i class="fi fi-ss-star me-1 text-warning"></i> Rating (4.7)
                       </td>
                       <td>
-                        <div class="btn-group float-end">
+                        <span class="badge badge-lg bg-success-subtle text-success">Active</span>
+                      </td>
+                      <td>
+                        <div class="btn-group">
                           <button class="btn btn-subtle-primary btn-sm btn-shadow btn-icon waves-effect dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="fi fi-rr-menu-dots"></i>
                           </button>
-                          <ul class="dropdown-menu dropdown-menu-end">
+                          <ul class="dropdown-menu dropdown-menu-start">
                             <li>
                               <a class="dropdown-item" href="javascript:void(0);">Edit</a>
                             </li>
@@ -2054,23 +1767,28 @@
                       <td>
                         <div class="d-flex align-items-center">
                           <div class="avatar avatar-xxs rounded-circle me-2">
-                            <img src="assets/backoffice/images/avatar/avatar1.webp" alt="">
+                            <img src="assets/backoffice/images/avatar/avatar6.webp" alt="">
                           </div>
-                          Benjamin Martinez
+                          James Miller
                         </div>
                       </td>
-                      <td>+971 50 123 4567</td>
-                      <td>samplemail6@example.com</td>
-                      <td>1 Days</td>
+                      <td>Data Entry Operator</td>
+                      <td>38</td>
+                      <td>0</td>
+                      <td>—</td>
+                      <td>1.1 hrs</td>
                       <td>
-                        <span class="badge badge-lg bg-success-subtle text-success">Pending</span>
+                        <i class="fi fi-ss-star me-1 text-warning"></i> Rating (4.2)
                       </td>
                       <td>
-                        <div class="btn-group float-end">
+                        <span class="badge badge-lg bg-primary-subtle text-primary">On Leave</span>
+                      </td>
+                      <td>
+                        <div class="btn-group">
                           <button class="btn btn-subtle-primary btn-sm btn-shadow btn-icon waves-effect dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="fi fi-rr-menu-dots"></i>
                           </button>
-                          <ul class="dropdown-menu dropdown-menu-end">
+                          <ul class="dropdown-menu dropdown-menu-start">
                             <li>
                               <a class="dropdown-item" href="javascript:void(0);">Edit</a>
                             </li>
@@ -2090,23 +1808,28 @@
                       <td>
                         <div class="d-flex align-items-center">
                           <div class="avatar avatar-xxs rounded-circle me-2">
-                            <img src="assets/backoffice/images/avatar/avatar1.webp" alt="">
+                            <img src="assets/backoffice/images/avatar/avatar7.webp" alt="">
                           </div>
-                          Benjamin Martinez
+                          Ava Martinez
                         </div>
                       </td>
-                      <td>+91 98765 43210</td>
-                      <td>janedoe2@example.com</td>
-                      <td>1st Half Day</td>
+                      <td>Relationship Executive</td>
+                      <td>40</td>
+                      <td>33</td>
+                      <td>82%</td>
+                      <td>1.7 hrs</td>
                       <td>
-                        <span class="badge badge-lg bg-primary-subtle text-primary">Active</span>
+                        <i class="fi fi-ss-star me-1 text-warning"></i> Rating (4.9)
                       </td>
                       <td>
-                        <div class="btn-group float-end">
+                        <span class="badge badge-lg bg-success-subtle text-success">Active</span>
+                      </td>
+                      <td>
+                        <div class="btn-group">
                           <button class="btn btn-subtle-primary btn-sm btn-shadow btn-icon waves-effect dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="fi fi-rr-menu-dots"></i>
                           </button>
-                          <ul class="dropdown-menu dropdown-menu-end">
+                          <ul class="dropdown-menu dropdown-menu-start">
                             <li>
                               <a class="dropdown-item" href="javascript:void(0);">Edit</a>
                             </li>
@@ -2126,23 +1849,28 @@
                       <td>
                         <div class="d-flex align-items-center">
                           <div class="avatar avatar-xxs rounded-circle me-2">
-                            <img src="assets/backoffice/images/avatar/avatar3.webp" alt="">
+                            <img src="assets/backoffice/images/avatar/avatar8.webp" alt="">
                           </div>
-                          Alexander Brown
+                          Ethan Davis
                         </div>
                       </td>
-                      <td>+44 7700 900123</td>
-                      <td>testuser3@example.com</td>
-                      <td>4 Days</td>
+                      <td>Sales Associate</td>
+                      <td>41</td>
+                      <td>35</td>
+                      <td>85%</td>
+                      <td>1.4 hrs</td>
                       <td>
-                        <span class="badge badge-lg bg-success-subtle text-success">Pending</span>
+                        <i class="fi fi-ss-star me-1 text-warning"></i> Rating (4.8)
                       </td>
                       <td>
-                        <div class="btn-group float-end">
+                        <span class="badge badge-lg bg-success-subtle text-success">Active</span>
+                      </td>
+                      <td>
+                        <div class="btn-group">
                           <button class="btn btn-subtle-primary btn-sm btn-shadow btn-icon waves-effect dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="fi fi-rr-menu-dots"></i>
                           </button>
-                          <ul class="dropdown-menu dropdown-menu-end">
+                          <ul class="dropdown-menu dropdown-menu-start">
                             <li>
                               <a class="dropdown-item" href="javascript:void(0);">Edit</a>
                             </li>
@@ -2162,23 +1890,28 @@
                       <td>
                         <div class="d-flex align-items-center">
                           <div class="avatar avatar-xxs rounded-circle me-2">
-                            <img src="assets/backoffice/images/avatar/avatar4.webp" alt="">
+                            <img src="assets/backoffice/images/avatar/avatar9.webp" alt="">
                           </div>
-                          Michael Davis
+                          Isabella Moore
                         </div>
                       </td>
-                      <td>+61 412 345 678</td>
-                      <td>randomuser4@example.com</td>
-                      <td>2nd Half Day</td>
+                      <td>CRM Trainee</td>
+                      <td>29</td>
+                      <td>19</td>
+                      <td>66%</td>
+                      <td>2.5 hrs</td>
                       <td>
-                        <span class="badge badge-lg bg-primary-subtle text-primary">Active</span>
+                        <i class="fi fi-ss-star me-1 text-warning"></i> Rating (4.4)
                       </td>
                       <td>
-                        <div class="btn-group float-end">
+                        <span class="badge badge-lg bg-warning-subtle text-warning">Training</span>
+                      </td>
+                      <td>
+                        <div class="btn-group">
                           <button class="btn btn-subtle-primary btn-sm btn-shadow btn-icon waves-effect dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="fi fi-rr-menu-dots"></i>
                           </button>
-                          <ul class="dropdown-menu dropdown-menu-end">
+                          <ul class="dropdown-menu dropdown-menu-start">
                             <li>
                               <a class="dropdown-item" href="javascript:void(0);">Edit</a>
                             </li>
@@ -2198,95 +1931,28 @@
                       <td>
                         <div class="d-flex align-items-center">
                           <div class="avatar avatar-xxs rounded-circle me-2">
-                            <img src="assets/backoffice/images/avatar/avatar1.webp" alt="">
+                            <img src="assets/backoffice/images/avatar/avatar10.webp" alt="">
                           </div>
-                          Benjamin Martinez
+                          Mason Clark
                         </div>
                       </td>
-                      <td>+91 98765 43210</td>
-                      <td>janedoe2@example.com</td>
-                      <td>1st Half Day</td>
+                      <td>Technical Support</td>
+                      <td>33</td>
+                      <td>25</td>
+                      <td>75%</td>
+                      <td>2.0 hrs</td>
                       <td>
-                        <span class="badge badge-lg bg-primary-subtle text-primary">Active</span>
+                        <i class="fi fi-ss-star me-1 text-warning"></i> Rating (4.6)
                       </td>
                       <td>
-                        <div class="btn-group float-end">
+                        <span class="badge badge-lg bg-success-subtle text-success">Active</span>
+                      </td>
+                      <td>
+                        <div class="btn-group">
                           <button class="btn btn-subtle-primary btn-sm btn-shadow btn-icon waves-effect dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="fi fi-rr-menu-dots"></i>
                           </button>
-                          <ul class="dropdown-menu dropdown-menu-end">
-                            <li>
-                              <a class="dropdown-item" href="javascript:void(0);">Edit</a>
-                            </li>
-                            <li>
-                              <a class="dropdown-item" href="javascript:void(0);">Delete</a>
-                            </li>
-                          </ul>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="pe-0">
-                        <div class="form-check p-0 w-auto d-inline-block mb-0 mb-n1">
-                          <input class="form-check-input m-0" data-checkbox="" type="checkbox">
-                        </div>
-                      </td>
-                      <td>
-                        <div class="d-flex align-items-center">
-                          <div class="avatar avatar-xxs rounded-circle me-2">
-                            <img src="assets/backoffice/images/avatar/avatar3.webp" alt="">
-                          </div>
-                          Alexander Brown
-                        </div>
-                      </td>
-                      <td>+44 7700 900123</td>
-                      <td>testuser3@example.com</td>
-                      <td>4 Days</td>
-                      <td>
-                        <span class="badge badge-lg bg-success-subtle text-success">Pending</span>
-                      </td>
-                      <td>
-                        <div class="btn-group float-end">
-                          <button class="btn btn-subtle-primary btn-sm btn-shadow btn-icon waves-effect dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <i class="fi fi-rr-menu-dots"></i>
-                          </button>
-                          <ul class="dropdown-menu dropdown-menu-end">
-                            <li>
-                              <a class="dropdown-item" href="javascript:void(0);">Edit</a>
-                            </li>
-                            <li>
-                              <a class="dropdown-item" href="javascript:void(0);">Delete</a>
-                            </li>
-                          </ul>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="pe-0">
-                        <div class="form-check p-0 w-auto d-inline-block mb-0 mb-n1">
-                          <input class="form-check-input m-0" data-checkbox="" type="checkbox">
-                        </div>
-                      </td>
-                      <td>
-                        <div class="d-flex align-items-center">
-                          <div class="avatar avatar-xxs rounded-circle me-2">
-                            <img src="assets/backoffice/images/avatar/avatar4.webp" alt="">
-                          </div>
-                          Michael Davis
-                        </div>
-                      </td>
-                      <td>+61 412 345 678</td>
-                      <td>randomuser4@example.com</td>
-                      <td>2nd Half Day</td>
-                      <td>
-                        <span class="badge badge-lg bg-primary-subtle text-primary">Active</span>
-                      </td>
-                      <td>
-                        <div class="btn-group float-end">
-                          <button class="btn btn-subtle-primary btn-sm btn-shadow btn-icon waves-effect dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <i class="fi fi-rr-menu-dots"></i>
-                          </button>
-                          <ul class="dropdown-menu dropdown-menu-end">
+                          <ul class="dropdown-menu dropdown-menu-start">
                             <li>
                               <a class="dropdown-item" href="javascript:void(0);">Edit</a>
                             </li>
@@ -2303,181 +1969,6 @@
             </div>
           </div>
 
-          <div class="col-xxl-4">
-            <div class="card">
-              <div class="card-header d-flex align-items-center justify-content-between border-0 pb-0">
-                <h6 class="card-title mb-0">Task Update</h6>
-                <div class="clearfix">
-                  <a href="javascript:void(0);" class="btn-link">View All</a>
-                  <button type="button" class="btn btn-sm btn-light waves-effect ms-3" data-bs-toggle="modal" data-bs-target="#todoTaskModal">
-                    <i class="fi fi-rr-plus text-2xs me-1"></i> New Task
-                  </button>
-                </div>
-              </div>
-              <div class="card-body pb-1 px-2 pt-3 overflow-auto" style="height: 385px;" data-simplebar="">
-                <ul id="todoList" class="list-group list-group-smooth list-group-unlined todo-nav">
-                  <li class="list-group-item d-flex gap-2 align-items-center todo-item bg-opacity-05 mb-1 ps-3 pe-2 py-2">
-                    <span class="sortable-handle">
-                      <svg width="16" height="17" viewbox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M11.9998 3.16667C12.7362 3.16667 13.3332 2.56971 13.3332 1.83333C13.3332 1.09695 12.7362 0.5 11.9998 0.5C11.2635 0.5 10.6665 1.09695 10.6665 1.83333C10.6665 2.56971 11.2635 3.16667 11.9998 3.16667Z" fill="var(--bs-body-color)"></path>
-                        <path d="M11.9998 9.26237C12.7362 9.26237 13.3332 8.66542 13.3332 7.92904C13.3332 7.19266 12.7362 6.5957 11.9998 6.5957C11.2635 6.5957 10.6665 7.19266 10.6665 7.92904C10.6665 8.66542 11.2635 9.26237 11.9998 9.26237Z" fill="var(--bs-body-color)"></path>
-                        <path d="M11.9998 15.3571C12.7362 15.3571 13.3332 14.7601 13.3332 14.0238C13.3332 13.2874 12.7362 12.6904 11.9998 12.6904C11.2635 12.6904 10.6665 13.2874 10.6665 14.0238C10.6665 14.7601 11.2635 15.3571 11.9998 15.3571Z" fill="var(--bs-body-color)"></path>
-                        <path d="M4.7618 3.16667C5.49818 3.16667 6.09513 2.56971 6.09513 1.83333C6.09513 1.09695 5.49818 0.5 4.7618 0.5C4.02542 0.5 3.42847 1.09695 3.42847 1.83333C3.42847 2.56971 4.02542 3.16667 4.7618 3.16667Z" fill="var(--bs-body-color)"></path>
-                        <path d="M4.7618 9.26237C5.49818 9.26237 6.09513 8.66542 6.09513 7.92904C6.09513 7.19266 5.49818 6.5957 4.7618 6.5957C4.02542 6.5957 3.42847 7.19266 3.42847 7.92904C3.42847 8.66542 4.02542 9.26237 4.7618 9.26237Z" fill="var(--bs-body-color)"></path>
-                        <path d="M4.7618 15.3571C5.49818 15.3571 6.09513 14.7601 6.09513 14.0238C6.09513 13.2874 5.49818 12.6904 4.7618 12.6904C4.02542 12.6904 3.42847 13.2874 3.42847 14.0238C3.42847 14.7601 4.02542 15.3571 4.7618 15.3571Z" fill="var(--bs-body-color)"></path>
-                      </svg>
-                    </span>
-                    <input class="form-check-input todo-checkbox check-dark" type="checkbox">
-                    <span class="form-label mb-0">Prepare monthly financial report</span>
-                    <span class="todo-time text-body">04:25PM</span>
-                    <button type="button" class="btn btn-action-gray rounded-circle btn-sm btn-icon waves-effect waves-light item-delete ms-auto">
-                      <i class="fi fi-rr-trash"></i>
-                    </button>
-                  </li>
-                  <li class="list-group-item d-flex gap-2 align-items-center todo-item bg-opacity-05 mb-1 ps-3 pe-2 py-2">
-                    <span class="sortable-handle">
-                      <svg width="16" height="17" viewbox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M11.9998 3.16667C12.7362 3.16667 13.3332 2.56971 13.3332 1.83333C13.3332 1.09695 12.7362 0.5 11.9998 0.5C11.2635 0.5 10.6665 1.09695 10.6665 1.83333C10.6665 2.56971 11.2635 3.16667 11.9998 3.16667Z" fill="var(--bs-body-color)"></path>
-                        <path d="M11.9998 9.26237C12.7362 9.26237 13.3332 8.66542 13.3332 7.92904C13.3332 7.19266 12.7362 6.5957 11.9998 6.5957C11.2635 6.5957 10.6665 7.19266 10.6665 7.92904C10.6665 8.66542 11.2635 9.26237 11.9998 9.26237Z" fill="var(--bs-body-color)"></path>
-                        <path d="M11.9998 15.3571C12.7362 15.3571 13.3332 14.7601 13.3332 14.0238C13.3332 13.2874 12.7362 12.6904 11.9998 12.6904C11.2635 12.6904 10.6665 13.2874 10.6665 14.0238C10.6665 14.7601 11.2635 15.3571 11.9998 15.3571Z" fill="var(--bs-body-color)"></path>
-                        <path d="M4.7618 3.16667C5.49818 3.16667 6.09513 2.56971 6.09513 1.83333C6.09513 1.09695 5.49818 0.5 4.7618 0.5C4.02542 0.5 3.42847 1.09695 3.42847 1.83333C3.42847 2.56971 4.02542 3.16667 4.7618 3.16667Z" fill="var(--bs-body-color)"></path>
-                        <path d="M4.7618 9.26237C5.49818 9.26237 6.09513 8.66542 6.09513 7.92904C6.09513 7.19266 5.49818 6.5957 4.7618 6.5957C4.02542 6.5957 3.42847 7.19266 3.42847 7.92904C3.42847 8.66542 4.02542 9.26237 4.7618 9.26237Z" fill="var(--bs-body-color)"></path>
-                        <path d="M4.7618 15.3571C5.49818 15.3571 6.09513 14.7601 6.09513 14.0238C6.09513 13.2874 5.49818 12.6904 4.7618 12.6904C4.02542 12.6904 3.42847 13.2874 3.42847 14.0238C3.42847 14.7601 4.02542 15.3571 4.7618 15.3571Z" fill="var(--bs-body-color)"></path>
-                      </svg>
-                    </span>
-                    <input class="form-check-input todo-checkbox check-dark" type="checkbox" checked="">
-                    <span class="form-label mb-0">Develop new marketing strategy</span>
-                    <span class="todo-time text-body">04:25PM</span>
-                    <button type="button" class="btn btn-action-gray rounded-circle btn-sm btn-icon waves-effect waves-light item-delete ms-auto">
-                      <i class="fi fi-rr-trash"></i>
-                    </button>
-                  </li>
-                  <li class="list-group-item d-flex gap-2 align-items-center todo-item bg-opacity-05 mb-1 ps-3 pe-2 py-2">
-                    <span class="sortable-handle">
-                      <svg width="16" height="17" viewbox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M11.9998 3.16667C12.7362 3.16667 13.3332 2.56971 13.3332 1.83333C13.3332 1.09695 12.7362 0.5 11.9998 0.5C11.2635 0.5 10.6665 1.09695 10.6665 1.83333C10.6665 2.56971 11.2635 3.16667 11.9998 3.16667Z" fill="var(--bs-body-color)"></path>
-                        <path d="M11.9998 9.26237C12.7362 9.26237 13.3332 8.66542 13.3332 7.92904C13.3332 7.19266 12.7362 6.5957 11.9998 6.5957C11.2635 6.5957 10.6665 7.19266 10.6665 7.92904C10.6665 8.66542 11.2635 9.26237 11.9998 9.26237Z" fill="var(--bs-body-color)"></path>
-                        <path d="M11.9998 15.3571C12.7362 15.3571 13.3332 14.7601 13.3332 14.0238C13.3332 13.2874 12.7362 12.6904 11.9998 12.6904C11.2635 12.6904 10.6665 13.2874 10.6665 14.0238C10.6665 14.7601 11.2635 15.3571 11.9998 15.3571Z" fill="var(--bs-body-color)"></path>
-                        <path d="M4.7618 3.16667C5.49818 3.16667 6.09513 2.56971 6.09513 1.83333C6.09513 1.09695 5.49818 0.5 4.7618 0.5C4.02542 0.5 3.42847 1.09695 3.42847 1.83333C3.42847 2.56971 4.02542 3.16667 4.7618 3.16667Z" fill="var(--bs-body-color)"></path>
-                        <path d="M4.7618 9.26237C5.49818 9.26237 6.09513 8.66542 6.09513 7.92904C6.09513 7.19266 5.49818 6.5957 4.7618 6.5957C4.02542 6.5957 3.42847 7.19266 3.42847 7.92904C3.42847 8.66542 4.02542 9.26237 4.7618 9.26237Z" fill="var(--bs-body-color)"></path>
-                        <path d="M4.7618 15.3571C5.49818 15.3571 6.09513 14.7601 6.09513 14.0238C6.09513 13.2874 5.49818 12.6904 4.7618 12.6904C4.02542 12.6904 3.42847 13.2874 3.42847 14.0238C3.42847 14.7601 4.02542 15.3571 4.7618 15.3571Z" fill="var(--bs-body-color)"></path>
-                      </svg>
-                    </span>
-                    <input class="form-check-input todo-checkbox check-dark" type="checkbox">
-                    <span class="form-label mb-0">Reply to customer emails</span>
-                    <span class="todo-time text-body">04:25PM</span>
-                    <button type="button" class="btn btn-action-gray rounded-circle btn-sm btn-icon waves-effect waves-light item-delete ms-auto">
-                      <i class="fi fi-rr-trash"></i>
-                    </button>
-                  </li>
-                  <li class="list-group-item d-flex gap-2 align-items-center todo-item bg-opacity-05 mb-1 ps-3 pe-2 py-2">
-                    <span class="sortable-handle">
-                      <svg width="16" height="17" viewbox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M11.9998 3.16667C12.7362 3.16667 13.3332 2.56971 13.3332 1.83333C13.3332 1.09695 12.7362 0.5 11.9998 0.5C11.2635 0.5 10.6665 1.09695 10.6665 1.83333C10.6665 2.56971 11.2635 3.16667 11.9998 3.16667Z" fill="var(--bs-body-color)"></path>
-                        <path d="M11.9998 9.26237C12.7362 9.26237 13.3332 8.66542 13.3332 7.92904C13.3332 7.19266 12.7362 6.5957 11.9998 6.5957C11.2635 6.5957 10.6665 7.19266 10.6665 7.92904C10.6665 8.66542 11.2635 9.26237 11.9998 9.26237Z" fill="var(--bs-body-color)"></path>
-                        <path d="M11.9998 15.3571C12.7362 15.3571 13.3332 14.7601 13.3332 14.0238C13.3332 13.2874 12.7362 12.6904 11.9998 12.6904C11.2635 12.6904 10.6665 13.2874 10.6665 14.0238C10.6665 14.7601 11.2635 15.3571 11.9998 15.3571Z" fill="var(--bs-body-color)"></path>
-                        <path d="M4.7618 3.16667C5.49818 3.16667 6.09513 2.56971 6.09513 1.83333C6.09513 1.09695 5.49818 0.5 4.7618 0.5C4.02542 0.5 3.42847 1.09695 3.42847 1.83333C3.42847 2.56971 4.02542 3.16667 4.7618 3.16667Z" fill="var(--bs-body-color)"></path>
-                        <path d="M4.7618 9.26237C5.49818 9.26237 6.09513 8.66542 6.09513 7.92904C6.09513 7.19266 5.49818 6.5957 4.7618 6.5957C4.02542 6.5957 3.42847 7.19266 3.42847 7.92904C3.42847 8.66542 4.02542 9.26237 4.7618 9.26237Z" fill="var(--bs-body-color)"></path>
-                        <path d="M4.7618 15.3571C5.49818 15.3571 6.09513 14.7601 6.09513 14.0238C6.09513 13.2874 5.49818 12.6904 4.7618 12.6904C4.02542 12.6904 3.42847 13.2874 3.42847 14.0238C3.42847 14.7601 4.02542 15.3571 4.7618 15.3571Z" fill="var(--bs-body-color)"></path>
-                      </svg>
-                    </span>
-                    <input class="form-check-input todo-checkbox check-dark" type="checkbox">
-                    <span class="form-label mb-0">Update website content</span>
-                    <span class="todo-time text-body">04:25PM</span>
-                    <button type="button" class="btn btn-action-gray rounded-circle btn-sm btn-icon waves-effect waves-light item-delete ms-auto">
-                      <i class="fi fi-rr-trash"></i>
-                    </button>
-                  </li>
-                  <li class="list-group-item d-flex gap-2 align-items-center todo-item bg-opacity-05 mb-1 ps-3 pe-2 py-2">
-                    <span class="sortable-handle">
-                      <svg width="16" height="17" viewbox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M11.9998 3.16667C12.7362 3.16667 13.3332 2.56971 13.3332 1.83333C13.3332 1.09695 12.7362 0.5 11.9998 0.5C11.2635 0.5 10.6665 1.09695 10.6665 1.83333C10.6665 2.56971 11.2635 3.16667 11.9998 3.16667Z" fill="var(--bs-body-color)"></path>
-                        <path d="M11.9998 9.26237C12.7362 9.26237 13.3332 8.66542 13.3332 7.92904C13.3332 7.19266 12.7362 6.5957 11.9998 6.5957C11.2635 6.5957 10.6665 7.19266 10.6665 7.92904C10.6665 8.66542 11.2635 9.26237 11.9998 9.26237Z" fill="var(--bs-body-color)"></path>
-                        <path d="M11.9998 15.3571C12.7362 15.3571 13.3332 14.7601 13.3332 14.0238C13.3332 13.2874 12.7362 12.6904 11.9998 12.6904C11.2635 12.6904 10.6665 13.2874 10.6665 14.0238C10.6665 14.7601 11.2635 15.3571 11.9998 15.3571Z" fill="var(--bs-body-color)"></path>
-                        <path d="M4.7618 3.16667C5.49818 3.16667 6.09513 2.56971 6.09513 1.83333C6.09513 1.09695 5.49818 0.5 4.7618 0.5C4.02542 0.5 3.42847 1.09695 3.42847 1.83333C3.42847 2.56971 4.02542 3.16667 4.7618 3.16667Z" fill="var(--bs-body-color)"></path>
-                        <path d="M4.7618 9.26237C5.49818 9.26237 6.09513 8.66542 6.09513 7.92904C6.09513 7.19266 5.49818 6.5957 4.7618 6.5957C4.02542 6.5957 3.42847 7.19266 3.42847 7.92904C3.42847 8.66542 4.02542 9.26237 4.7618 9.26237Z" fill="var(--bs-body-color)"></path>
-                        <path d="M4.7618 15.3571C5.49818 15.3571 6.09513 14.7601 6.09513 14.0238C6.09513 13.2874 5.49818 12.6904 4.7618 12.6904C4.02542 12.6904 3.42847 13.2874 3.42847 14.0238C3.42847 14.7601 4.02542 15.3571 4.7618 15.3571Z" fill="var(--bs-body-color)"></path>
-                      </svg>
-                    </span>
-                    <input class="form-check-input todo-checkbox check-primary" type="checkbox" checked="">
-                    <span class="form-label mb-0">Review employee performance</span>
-                    <span class="todo-time text-body text-body">04:25PM</span>
-                    <button type="button" class="btn btn-action-gray rounded-circle btn-sm btn-icon waves-effect waves-light item-delete ms-auto">
-                      <i class="fi fi-rr-trash"></i>
-                    </button>
-                  </li>
-                  <li class="list-group-item d-flex gap-2 align-items-center todo-item bg-opacity-05 mb-1 ps-3 pe-2 py-2">
-                    <span class="sortable-handle">
-                      <svg width="16" height="17" viewbox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M11.9998 3.16667C12.7362 3.16667 13.3332 2.56971 13.3332 1.83333C13.3332 1.09695 12.7362 0.5 11.9998 0.5C11.2635 0.5 10.6665 1.09695 10.6665 1.83333C10.6665 2.56971 11.2635 3.16667 11.9998 3.16667Z" fill="var(--bs-body-color)"></path>
-                        <path d="M11.9998 9.26237C12.7362 9.26237 13.3332 8.66542 13.3332 7.92904C13.3332 7.19266 12.7362 6.5957 11.9998 6.5957C11.2635 6.5957 10.6665 7.19266 10.6665 7.92904C10.6665 8.66542 11.2635 9.26237 11.9998 9.26237Z" fill="var(--bs-body-color)"></path>
-                        <path d="M11.9998 15.3571C12.7362 15.3571 13.3332 14.7601 13.3332 14.0238C13.3332 13.2874 12.7362 12.6904 11.9998 12.6904C11.2635 12.6904 10.6665 13.2874 10.6665 14.0238C10.6665 14.7601 11.2635 15.3571 11.9998 15.3571Z" fill="var(--bs-body-color)"></path>
-                        <path d="M4.7618 3.16667C5.49818 3.16667 6.09513 2.56971 6.09513 1.83333C6.09513 1.09695 5.49818 0.5 4.7618 0.5C4.02542 0.5 3.42847 1.09695 3.42847 1.83333C3.42847 2.56971 4.02542 3.16667 4.7618 3.16667Z" fill="var(--bs-body-color)"></path>
-                        <path d="M4.7618 9.26237C5.49818 9.26237 6.09513 8.66542 6.09513 7.92904C6.09513 7.19266 5.49818 6.5957 4.7618 6.5957C4.02542 6.5957 3.42847 7.19266 3.42847 7.92904C3.42847 8.66542 4.02542 9.26237 4.7618 9.26237Z" fill="var(--bs-body-color)"></path>
-                        <path d="M4.7618 15.3571C5.49818 15.3571 6.09513 14.7601 6.09513 14.0238C6.09513 13.2874 5.49818 12.6904 4.7618 12.6904C4.02542 12.6904 3.42847 13.2874 3.42847 14.0238C3.42847 14.7601 4.02542 15.3571 4.7618 15.3571Z" fill="var(--bs-body-color)"></path>
-                      </svg>
-                    </span>
-                    <input class="form-check-input todo-checkbox check-success" type="checkbox" checked="">
-                    <span class="form-label mb-0">Reply to customer emails</span>
-                    <span class="todo-time text-body">04:25PM</span>
-                    <button type="button" class="btn btn-action-gray rounded-circle btn-sm btn-icon waves-effect waves-light item-delete ms-auto">
-                      <i class="fi fi-rr-trash"></i>
-                    </button>
-                  </li>
-                  <li class="list-group-item d-flex gap-2 align-items-center todo-item bg-opacity-05 mb-1 ps-3 pe-2 py-2">
-                    <span class="sortable-handle">
-                      <svg width="16" height="17" viewbox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M11.9998 3.16667C12.7362 3.16667 13.3332 2.56971 13.3332 1.83333C13.3332 1.09695 12.7362 0.5 11.9998 0.5C11.2635 0.5 10.6665 1.09695 10.6665 1.83333C10.6665 2.56971 11.2635 3.16667 11.9998 3.16667Z" fill="var(--bs-body-color)"></path>
-                        <path d="M11.9998 9.26237C12.7362 9.26237 13.3332 8.66542 13.3332 7.92904C13.3332 7.19266 12.7362 6.5957 11.9998 6.5957C11.2635 6.5957 10.6665 7.19266 10.6665 7.92904C10.6665 8.66542 11.2635 9.26237 11.9998 9.26237Z" fill="var(--bs-body-color)"></path>
-                        <path d="M11.9998 15.3571C12.7362 15.3571 13.3332 14.7601 13.3332 14.0238C13.3332 13.2874 12.7362 12.6904 11.9998 12.6904C11.2635 12.6904 10.6665 13.2874 10.6665 14.0238C10.6665 14.7601 11.2635 15.3571 11.9998 15.3571Z" fill="var(--bs-body-color)"></path>
-                        <path d="M4.7618 3.16667C5.49818 3.16667 6.09513 2.56971 6.09513 1.83333C6.09513 1.09695 5.49818 0.5 4.7618 0.5C4.02542 0.5 3.42847 1.09695 3.42847 1.83333C3.42847 2.56971 4.02542 3.16667 4.7618 3.16667Z" fill="var(--bs-body-color)"></path>
-                        <path d="M4.7618 9.26237C5.49818 9.26237 6.09513 8.66542 6.09513 7.92904C6.09513 7.19266 5.49818 6.5957 4.7618 6.5957C4.02542 6.5957 3.42847 7.19266 3.42847 7.92904C3.42847 8.66542 4.02542 9.26237 4.7618 9.26237Z" fill="var(--bs-body-color)"></path>
-                        <path d="M4.7618 15.3571C5.49818 15.3571 6.09513 14.7601 6.09513 14.0238C6.09513 13.2874 5.49818 12.6904 4.7618 12.6904C4.02542 12.6904 3.42847 13.2874 3.42847 14.0238C3.42847 14.7601 4.02542 15.3571 4.7618 15.3571Z" fill="var(--bs-body-color)"></path>
-                      </svg>
-                    </span>
-                    <input class="form-check-input todo-checkbox check-warning" type="checkbox" checked="">
-                    <span class="form-label mb-0">Reply to customer emails</span>
-                    <span class="todo-time text-body">04:25PM</span>
-                    <button type="button" class="btn btn-action-gray rounded-circle btn-sm btn-icon waves-effect waves-light item-delete ms-auto">
-                      <i class="fi fi-rr-trash"></i>
-                    </button>
-                  </li>
-                </ul>
-              </div>
-              <div class="modal fade" id="todoTaskModal" tabindex="-1" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered">
-                  <div class="modal-content">
-                    <div class="modal-header py-3">
-                      <h5 class="modal-title">Add New Task</h5>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                      <form id="taskForm">
-                        <div class="row">
-                          <div class="col-12 mb-3">
-                            <input type="text" id="todoInput" class="form-control" placeholder="Add a new task">
-                          </div>
-                          <div class="col-12 mb-3">
-                            <select id="todoPriority" class="form-select">
-                              <option value="primary">Default</option>
-                              <option value="success">Completed</option>
-                              <option value="danger">High Priority</option>
-                              <option value="info">Info</option>
-                            </select>
-                          </div>
-                          <div class="col-12 text-end">
-                            <button type="button" class="btn btn-light waves-effect waves-light me-2" data-bs-dismiss="modal">Close</button>
-                            <button type="button" id="todoAdd" class="btn btn-primary waves-effect waves-light" data-bs-dismiss="modal">Add Task</button>
-                          </div>
-                        </div>
-                      </form>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
         </div>
 
       </div>
@@ -2489,7 +1980,7 @@
       <div class="container-fluid">
         <div class="row g-2">
           <div class="col-lg-6 col-md-7 text-center text-md-start">
-            <p class="mb-0">Â© <span class="currentYear">2025</span> NexLink. Proudly powered by <a href="javascript:void(0);">LayoutDrop</a>.</p>
+            <p class="mb-0">© <span class="currentYear">2025</span> NexLink. Proudly powered by <a href="javascript:void(0);">LayoutDrop</a>.</p>
           </div>
           <div class="col-lg-6 col-md-5">
             <ul class="d-flex list-inline mb-0 gap-3 flex-wrap justify-content-center justify-content-md-end">
@@ -2511,8 +2002,16 @@
 
   </div>
 
+  <!-- begin::NexLink Page Scripts -->
   
-
+  
+  
+  
+  
+  
+  
+  
+  <!-- end::NexLink Page Scripts -->
 
 
 

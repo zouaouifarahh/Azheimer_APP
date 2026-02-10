@@ -1,7 +1,7 @@
-<header id="header" class="header d-flex align-items-center fixed-top">
+﻿<header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container position-relative d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+      <a routerLink="/" class="logo d-flex align-items-center me-auto me-xl-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/frontoffice/img/logo.webp" alt=""> -->
         <h1 class="sitename">Medi<span>Nest</span></h1>
@@ -9,22 +9,22 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="departments.html">Departments</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="doctors.html">Doctors</a></li>
+          <li><a routerLink="/" class="active">Home</a></li>
+          <li><a routerLink="/about">About</a></li>
+          <li><a routerLink="/departments">Departments</a></li>
+          <li><a routerLink="/services">Services</a></li>
+          <li><a routerLink="/doctors">Doctors</a></li>
           <li class="dropdown"><a href="#"><span>More Pages</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="department-details.html">Department Details</a></li>
-              <li><a href="service-details.html">Service Details</a></li>
-              <li><a href="appointment.html">Appointment</a></li>
-              <li><a href="testimonials.html">Testimonials</a></li>
-              <li><a href="faq.html">Frequently Asked Questions</a></li>
-              <li><a href="gallery.html">Gallery</a></li>
-              <li><a href="terms.html">Terms</a></li>
-              <li><a href="privacy.html">Privacy</a></li>
-              <li><a href="404.html">404</a></li>
+              <li><a routerLink="/department-details">Department Details</a></li>
+              <li><a routerLink="/service-details">Service Details</a></li>
+              <li><a routerLink="/appointment">Appointment</a></li>
+              <li><a routerLink="/testimonials">Testimonials</a></li>
+              <li><a routerLink="/faq">Frequently Asked Questions</a></li>
+              <li><a routerLink="/gallery">Gallery</a></li>
+              <li><a routerLink="/terms">Terms</a></li>
+              <li><a routerLink="/privacy">Privacy</a></li>
+              <li><a routerLink="/404">404</a></li>
             </ul>
           </li>
           <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -44,12 +44,12 @@
               <li><a href="#">Dropdown 4</a></li>
             </ul>
           </li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a routerLink="/contact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="apointment.html">Apointment</a>
+      <a class="btn-getstarted" routerLink="/appointment">Appointment</a>
 
     </div>
   </header>
@@ -244,8 +244,8 @@
               </div>
 
               <div class="action-buttons">
-                <a href="about.html" class="btn-explore">Explore Our Services</a>
-                <a href="contact.html" class="btn-contact">
+                <a routerLink="/about" class="btn-explore">Explore Our Services</a>
+                <a routerLink="/contact" class="btn-contact">
                   <i class="bi bi-telephone"></i>
                   Schedule Consultation
                 </a>
@@ -877,8 +877,8 @@
                 <p>Discover comprehensive healthcare services delivered with compassion and expertise. Our dedicated team is committed to providing personalized medical care that puts you first.</p>
 
                 <div class="action-buttons">
-                  <a href="appointment.html" class="primary-btn">Schedule Consultation</a>
-                  <a href="services.html" class="secondary-link">
+                  <a routerLink="/appointment" class="primary-btn">Schedule Consultation</a>
+                  <a routerLink="/services" class="secondary-link">
                     <span>Explore Services</span>
                     <i class="fas fa-arrow-right"></i>
                   </a>
@@ -977,7 +977,7 @@
                 <i class="fas fa-phone"></i>
                 (555) 123-4567
               </a>
-              <a href="contact.html" class="contact-link">Get Directions</a>
+              <a routerLink="/contact" class="contact-link">Get Directions</a>
             </div>
           </div>
         </div>
@@ -993,7 +993,7 @@
     <div class="container footer-top">
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
+          <a routerLink="/" class="logo d-flex align-items-center">
             <span class="sitename">MediNest</span>
           </a>
           <div class="footer-contact pt-3">
@@ -1058,7 +1058,7 @@
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong>MediNest</strong>&nbsp;<span>All Rights Reserved</span></p>
+      <p>Â© <span>Copyright</span> <strong>MediNest</strong>&nbsp;<span>All Rights Reserved</span></p>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you've purchased the pro version. -->
@@ -1077,3 +1077,5 @@
 
   <!-- Vendor JS Files -->
   
+
+
